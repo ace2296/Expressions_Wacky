@@ -8,4 +8,8 @@ var totalTeeth = prompt("How many bottom teeth do you have?");
 
 totalTeeth += 16
 
+var jellyBeans = (health + age) * waist / cavities + totalTeeth;
+
+alert("After calculating your inputs, we concluded that you can eat a total of " + jellyBeans + " jelly beans in one sitting. That's impressive!")
+
 
