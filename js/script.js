@@ -12,4 +12,6 @@ var jellyBeans = (health + age) * waist / cavities + totalTeeth;
 
 alert("After calculating your inputs, we concluded that you can eat a total of " + jellyBeans + " jelly beans in one sitting. That's impressive!")
 
+console.log("After calculating your inputs, we concluded that you can eat a total of " + jellyBeans + " jelly beans in one sitting. That's impressive!");
+
 
