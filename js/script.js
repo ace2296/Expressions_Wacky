@@ -12,8 +12,10 @@ totalTeeth += 16 //Assignment operator to calculate total teeth
 
 var jellyBeans = (health * age) + (waist * totalTeeth) - cavities; //This will come out with the total number of jelly beans you can eat in one sitting
 
+//This will alert the user with the end result
 alert("After calculating your inputs, we concluded that you can eat a total of " + jellyBeans + " jelly beans in one sitting. That's impressive!")
 
+//This will be stored in console to read at a later time
 console.log("After calculating your inputs, we concluded that you can eat a total of " + jellyBeans + " jelly beans in one sitting. That's impressive!");
 
 
