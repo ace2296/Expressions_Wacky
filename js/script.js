@@ -6,7 +6,7 @@ var health = prompt("What is your overall fitness level 1 through 10?"); //Sets 
 var age = prompt("What is your age?"); //This is multiplied by the health
 var waist = prompt("What is your waist size? i.e. 28, 29, 30, 6, 8") //This is multiplied by the total teeth
 var cavities = prompt("How many cavities do you have?"); //This will take away fromy our total number
-var totalTeeth = prompt("How many bottom teeth do you have?"); //This will double up to come out with the total teeth you have
+var totalTeeth = prompt("How many bottom teeth do you have? Hopefully all of them."); //This will double up to come out with the total teeth you have
 
 totalTeeth += 16 //Assignment operator to calculate total teeth
 
