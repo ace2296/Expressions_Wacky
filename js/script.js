@@ -8,7 +8,7 @@ var waist = prompt("What is your waist size? i.e. 28, 29, 30, 6, 8") //This is m
 var cavities = prompt("How many cavities do you have?"); //This will take away fromy our total number
 var totalTeeth = prompt("How many bottom teeth do you have? Hopefully all of them."); //This will double up to come out with the total teeth you have
 
-totalTeeth += 16 //Assignment operator to calculate total teeth
+totalTeeth += 16 //Assignment operator to calculate total teeth - totalTeeth = totalTeeth + 16
 
 var jellyBeans = (health * age) + (waist * totalTeeth) - cavities; //This will come out with the total number of jelly beans you can eat in one sitting
 
