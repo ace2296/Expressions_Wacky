@@ -1,8 +1,8 @@
 //Guerra, Andre 12/13/14 Expressions - Wacky
 
-var health = prompt("What is your overall fitness level 1 through 10?");
-var age = prompt("What is your age?");
-var waist = prompt("What is your waist size?")
+var health = prompt("What is your overall fitness level 1 through 10?"); //Sets the based number for jelly bean equation
+var age = prompt("What is your age?"); //This is multiplied by the health
+var waist = prompt("What is your waist size?") //This is multiplied by the total teeth
 var cavities = prompt("How many cavities do you have?");
 var totalTeeth = prompt("How many bottom teeth do you have?");
 
